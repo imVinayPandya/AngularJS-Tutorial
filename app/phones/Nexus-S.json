@@ -13,6 +13,10 @@
         "od": "Android 2.3",
         "ui": "Android"
     },
+    "connectivity": {
+        "infrared": true,
+        "gps": false
+    },
     "images": [
         "img/phones/1.jpg",
         "img/phones/2.jpg",

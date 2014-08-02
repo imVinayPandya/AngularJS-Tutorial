@@ -17,6 +17,13 @@
                 <dt>Availability</dt>
                 <dd ng-repeat="availability in phone.availability">{{availability}}</dd>
             </dl>
+            <dl>
+                <dt>Infrafed</dt>
+                <dd>{{phone.connectivity.infrared | checkmark}}</dd>
+
+                <dt>GPS</dt>
+                <dd>{{phone.connectivity.gps | checkmark}}</dd>
+            </dl>
         </li>
         <li>
             <span>Additional Features</span>
