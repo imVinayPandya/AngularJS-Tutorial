@@ -1,2 +1,26 @@
-TBD: detail view for
-<apan>{{phoneId}}</apan>
+<div class="container">
+    <img ng-src="{{phone.images[0]}}" class="img-responsive" width="500px" height="500px">
+
+    <div class="img-responsive thumbnail pull-left" ng-repeat="img in phone.images">
+        <img ng-src="{{img}}" width="200px" height="200px">
+    </div>
+    <br/>
+
+    <h1>{{phone.name}}</h1>
+
+    <p>{{phone.description}}</p>
+
+    <ul class="well">
+        <li>
+            <span>availability and Networks</span>
+            <dl>
+                <dt>Availability</dt>
+                <dd ng-repeat="availability in phone.availability">{{availability}}</dd>
+            </dl>
+        </li>
+        <li>
+            <span>Additional Features</span>
+            <dd>{{phone.additionalFeatures}}</dd>
+        </li>
+    </ul>
+</div>

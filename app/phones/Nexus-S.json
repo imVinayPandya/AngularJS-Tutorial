@@ -1,0 +1,28 @@
+{
+    "name": "Nexus-S",
+    "snippet": "Fast just got faster with Nexus S.",
+    "availability": [
+        "surat",
+        "ahmedabad",
+        "rajkot",
+        "bhavnagar"
+    ],
+    "description": "Nexus-s comes with awesome features. one of the mos popular phone is here with lower price and also you can be a lucky winner of grand price",
+    "additionalFeatures": "Contour Display, Near Fiels Communication (NFC)..",
+    "android": {
+        "od": "Android 2.3",
+        "ui": "Android"
+    },
+    "images": [
+        "img/phones/1.jpg",
+        "img/phones/2.jpg",
+        "img/phones/3.jpg",
+        "img/phones/4.jpg",
+        "img/phones/5.jpg"
+    ],
+    "storage": {
+        "flash": "1638MB",
+        "ram": "512MB"
+    }
+
+}
