@@ -1,8 +1,8 @@
 <div class="container">
-    <img ng-src="{{phone.images[0]}}" class="img-responsive" width="500px" height="500px">
+    <img ng-src="{{mainImageUrl}}" class="img-responsive" width="500px" height="500px">
 
     <div class="img-responsive thumbnail pull-left" ng-repeat="img in phone.images">
-        <img ng-src="{{img}}" width="200px" height="200px">
+        <img ng-src="{{img}}" ng-click="setImage(img)" width="200px" height="200px">
     </div>
     <br/>
 
